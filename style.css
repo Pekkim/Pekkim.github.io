@@ -87,28 +87,36 @@ img.displayed {
     
     }
 
-    #menu ul{
-        padding: 2px 10px;
-        display: inline-block;
-        background-color: #283E4A;
-        color: #F0FFFF;
-        list-style: none;
-        text-align: center;
+div{
+        display: block;
+        font-size: smaller;
+        list-style-type: none;
+        align-items: center;
     }
 
-    #menu ul li { display: inline; }
+    div.menu figcaption{
+        display: flex;
+        text-align: right;
+        font-size: smaller;
+        position: bottom;
+        font-family: sans-serif;
+        color: white;
+        margin: 5px 2px 2px 9px;
+        vertical-align: text-bottom;
+    }
 
-    #menu ul li a {
+    div.menu{
+        background-color: #283E4A;
+    }
+
+    div.menu li {
         padding: 2px 10px;
         display: inline-block;
         background-color:#283E4A;
         color: #F0FFFF;
         text-decoration: none;
+        font-family: sans-serif;
+        font-size: smaller;
         border-bottom:3px solid #283E4A;
-    }
-    #menu ul li a:hover {
-        background-color:#283E4A;
-        color: #F0FFFF;
-        border-bottom:3px solid #F0FFFF;
-        text-align: center;
+        list-style: none;
     }
