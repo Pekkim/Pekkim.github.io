@@ -88,10 +88,10 @@ img.displayed {
     }
 
 div{
-        display: block;
+        display: inline;
         font-size: smaller;
         list-style-type: none;
-        align-items: center;
+        text-aligm: center;
     }
 
     div.menu figcaption{
